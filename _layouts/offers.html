@@ -2,6 +2,12 @@
 layout: default
 ---
 
-{% include offer/all-offers.html %}
+<div class="container">
+  <div class="vpad--xxl width width--xl text--center">
+    <p class="text--xxl">{{page.intro}}</p>
+  </div>
+</div>
 
-{% include page/promo-offers.html %}
+<div class="bg--light">
+  {% include offer/all-offers.html %}
+</div>

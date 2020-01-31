@@ -22,7 +22,7 @@ function cleanAssets() {
 
 // start browserSync local server and show under site subdirectory
 function browserSyncServe() {
-  const baseurl = '/uk/2020/template';
+  const baseurl = '/uk/2020/great-british-breaks';
   browserSync.init({
     baseDir: '_site/',
     ui: false,

@@ -15,7 +15,9 @@
       {{ content }}
     </div>
 
-    {% include page/promo-signup.html %}
+    {% unless page.id == 'competition' %}
+      {% include page/promo-competition.html %}
+    {% endunless %}
 
     {% include page/footer.html %}
 

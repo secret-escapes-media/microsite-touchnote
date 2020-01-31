@@ -1,6 +1,7 @@
 ---
 layout: entered
 id: entered
+permalink: /competition/entered/
 nav: false
 
 title: You’ve successfully entered. Good luck!

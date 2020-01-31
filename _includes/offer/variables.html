@@ -1,10 +1,6 @@
 <!-- offer variables just to make the loops more readable -->
 
 <!-- all offers -->
-{% assign offers = site.data.offers %}
-
-<!-- offers by saving -->
-{% assign offers-by-saving = offers | sort: 'saved' | reverse %}
-
-<!-- offers by price -->
-{% assign offers-by-price = offers | sort: 'price' %}
+{% assign iconic-british = site.data.offers.iconic-british | sort: 'price'  %}
+{% assign remote-wild = site.data.offers.remote-wild | sort: 'price'  %}
+{% assign spa = site.data.offers.spa | sort: 'price'  %}

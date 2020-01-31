@@ -1,13 +1,13 @@
 ---
 layout: competition
 id: competition
-nav: true
-nav-order: 5
-nav-title: Win
-
 title: Compet&shy;ition
-long-title: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aspernatur beatae tempora, voluptates ut recusandae ea exercitationem culpa mollitia quia similique. Perferendis cumque obcaecati ad pariatur. Quos iure sapiente amet beatae, officiis possimus minima expedita, ea ad. Doloribus et perspiciatis doloremque. Tenetur consequatur quam maiores odit, adipisci nostrum numquam quo mollitia eligendi! Debitis, culpa impedit, ex esse fugit enim quibusdam!
+permalink: /competition/
+nav: true
+nav-order: 4
+
+long-title: Win a Great British Break
+intro: Perched on a cliffside overlooking the beautiful Dorset coast, Gara Rock makes for a stylish getaway, with boutique appointments throughout. Spend three nights in the gorgeous Secret Suite, with a private terrace overlooking the sea and your very own hot tub for those sunset bubbles. It’s as private as you’d want, separate from the main hotel with its very own clifftop position for stunning views all round. To make things even more effortless, enjoy breakfast each morning and a two-course dinner with a bottle of wine on one night. Here’s your chance to reconnect with a loved one on this unmissable getaway. Enter now for your chance to win!
 enter-cta: Enter Now
 
 competition-form:

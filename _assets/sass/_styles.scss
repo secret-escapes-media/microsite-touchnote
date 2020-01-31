@@ -1,1 +1,12 @@
 // general styles for the project that wouldn't be a reuseable component
+
+.promo-code {
+  max-width: $md;
+  margin: $s2 auto;
+  padding: $s-1 $s2;
+  letter-spacing: .1rem;
+  font-weight: 700;
+  font-size: $s0;
+  word-break: break-all;
+  border: 2px solid rgba($t-cyan, .5);
+}
