@@ -26,20 +26,21 @@ sections:
     link: https://www.secretescapes.com/uk-spa-breaks/filter
 ---
 
-
-<div class="container">
-  <div class="vpad--xxl width width--xl text--center text--xxl">
-    <p>{{page.intro}}</p>
-    <p>Explain promo code lorem ipsum dolor sit amet consectetur adipisicing elit numquam.</p>
-    <div class="promo-code">PROMOCODE</div>
-    <a href="{{site.client.link}}" class="btn btn--cyan">Download the app</a>
+<div class="bg--grey-lightest">
+  <div class="container">
+    <div class="vpad--xxl width width--xl text--center text--xxl">
+      <p>{{page.intro}}</p>
+      <p>Explain promo code lorem ipsum dolor sit amet consectetur adipisicing elit numquam.</p>
+      <div class="promo-code">PROMOCODE</div><br />
+      <a href="{{site.client.link}}" class="btn btn--cyan">Download the app</a>
+    </div>
   </div>
 </div>
 
 {% for item in page.sections %}
 {% assign offers = site.data.offers[item.id] | sort: 'price' %}
 
-<div class="{% cycle 'bg--light', '' %}">
+<div class="{% cycle '', 'bg--grey-lightest' %}">
   <div class="container vpad--xxl">
     <h2 class="title title--xl">{{item.title}}</h2>
     <p class="width--xl text--xxl">{{item.description}}</p>

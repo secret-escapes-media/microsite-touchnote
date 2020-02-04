@@ -8,7 +8,8 @@ nav-order: 3
 
 banner:
   title: Send your Postcard
-  title-sub: with TouchNote
+  title-sub: >
+    <span class="sub-title--lg">with&nbsp;<div class="banner-logo"></div></span>
 
 intro: TouchNote allows you to instantly create custom-made postcards wherever you are in the world. What’s more, you can send those postcards instantly from the UK to your loved ones. So if you’re climbing a mountain in Kenya, or exploring a market in Delhi, capture the moment and share it with your loved ones.
 
@@ -28,12 +29,19 @@ features:
 
 ---
 
-<div class="container">
-  <div class="vpad--xxl width width--xl text--center text--xxl">
-    <p>{{page.intro}}</p>
-    <p>Explain promo code lorem ipsum dolor sit amet consectetur adipisicing elit numquam.</p>
-    <div class="promo-code">PROMOCODE</div>
-    <a href="{{site.client.link}}" class="btn btn--cyan">Download the app</a>
+<div class="bg--grey-lightest">
+  <div class="container">
+    <div class="row row--valign-center">
+      <div class="col col--6">
+        <p class="text--xxl">{{page.intro}}</p>
+        <p class="text--xxl">Explain promo code lorem ipsum dolor sit amet consectetur adipisicing elit numquam.</p>
+        <div class="promo-code">PROMOCODE</div><br />
+        <a href="{{site.client.link}}" class="btn btn--cyan">Download the app</a>
+      </div>
+      <div class="col col--6">
+        <div class="bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/touchnote/iphone.png);"></div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -42,7 +50,7 @@ features:
     {% for item in page.features %}
       <div class="bob{% cycle '', ' bob--swap' %}">
         <div class="bob__img">
-          <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/img.jpg');">
+          <div class="bg-img bg-img--4-3 bg-img--float" style="background-image: url('{{site.img}}/content/touchnote/{{item.id}}.jpg');">
             <a class="bg-img__link" href="{{site.client.link}}"></a>
           </div>
         </div>
@@ -54,5 +62,9 @@ features:
         </div>
       </div>
     {% endfor %}
+    <div class="text--center">
+      <div class="space--xxxl"></div>
+      <a href="{{site.client.link}}" class="btn btn--cyan btn--lg">Download the app</a>
+    </div>
   </div>
 </div>

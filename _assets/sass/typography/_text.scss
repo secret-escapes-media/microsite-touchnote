@@ -2,6 +2,7 @@
 
 .text {
   // sizes
+  &--xxxl { font-size: 1.3rem; line-height: 1.6; letter-spacing: 0; }
   &--xxl { font-size: 1.2rem; line-height: 1.6; letter-spacing: 0; }
   &--xl  { font-size: 1.1rem; line-height: 1.6; letter-spacing: 0; }
   &--lg  { font-size: 1.05rem; letter-spacing: 0; }
@@ -30,4 +31,9 @@
     &--bp-right  { text-align: right; }
     &--bp-center { text-align: center; }
   }
+
+  // line length
+  &--ll-lg  { max-width: $lg; }
+  &--ll-xl  { max-width: $xl; }
+  &--ll-xxl { max-width: $xxl; }
 }

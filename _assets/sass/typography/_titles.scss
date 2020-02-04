@@ -4,6 +4,8 @@
 
   // custom content headline
   font-family: $font-title-01;
+  font-weight: 600;
+  line-height: 1.2;
   &--xxxl   { font-size: $s8; }
   &--xxl    { font-size: $s7; }
   &--xl     { font-size: $s6; }
@@ -30,6 +32,7 @@
 .sub-title {
 
   // custom content headline
+  margin-top: 0.66em;
   font-family: $font-title-01;
   font-size: $s2; // default size
   &--lg     { font-size: $s4; }
@@ -76,10 +79,11 @@
 
 .banner-title {
 
-  // custom banner headline
+  line-height: 1;
   font-family: $font-title-01;
   text-transform: uppercase;
   font-size: $s5;
+  font-weight: 600;
   @include bp($md){ font-size: $s7; }
   @include bp($xl){ font-size: $s10; }
 

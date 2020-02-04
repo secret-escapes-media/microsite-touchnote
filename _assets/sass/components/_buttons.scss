@@ -12,13 +12,16 @@
   border-radius: 3px;
   cursor: pointer;
   @include transition;
-  &--sm { padding: $s1 $s4; font-size: $s-2; }
-  &--lg { padding: $s3 $s8; font-size: $s-1; }
+  &--sm { padding: $s1 $s4; font-size: $s-1; }
+  &--lg { padding: $s3 $s8; font-size: $s0; }
   &--orange { background-color: $orange;
     &:hover { background-color: $orange-dark; }
   }
   &--cyan { background-color: $t-cyan;
     &:hover { background-color: darken($t-cyan, 10); }
+  }
+  &--white { background-color: $white; color: $t-cyan;
+    &:hover { background-color: rgba($white, 0.9); }
   }
   &--outline {
     color: inherit;
@@ -34,6 +37,15 @@
       border-style: solid;
       border-radius: inherit;
       @include transition;
+    }
+  }
+  &--outline-white {
+    color: $white;
+    &:before { border-color: $white; }
+    &:hover {
+      color: $t-cyan;
+      background-color: $white;
+      &:before { border-color: $white; }
     }
   }
   &--outline-orange {
