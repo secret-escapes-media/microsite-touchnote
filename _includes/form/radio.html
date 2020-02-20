@@ -1,5 +1,9 @@
 {% assign this = include.data %}
 <p class="c-label">{{this.label}}{% unless this.required %}<span class="form--optional"> -&nbsp;optional</span>{% endunless %}</p>
+{% if this.extra %}<div>
+  <p class="text--normal text--sm">{{this.extra}}</p>
+  <div class="space--xxs"></div>
+</div>{% endif %}
 <div class="input-buttons">
   {% for option in this.options %}<label for="{{form.id}}-{{option.id}}" class="input-button js-input-button">
     <div class="input-button__wrap">
