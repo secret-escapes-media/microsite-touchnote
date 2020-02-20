@@ -7,9 +7,9 @@ nav: true
 nav-order: 3
 
 banner:
-  title: Moments they can hold on to
+  title: Moments they can hold on&nbsp;to
   title-sub: >
-    <span class="sub-title--lg">with<div class="banner-logo"></div></span>
+    <span class="sub-title--lg">with <img class="banner-logo" src="{{site.img}}/logo/partner.svg" alt="{{site.client.name}}"></span>
 
 intro: TouchNote is on a mission to change the way we communicate. As the world’s first membership service to deliver real, personalised photocards from the convenience of your phone, they aim to help you maintain and strengthen your relationships with a meaningful form of communication that lasts. Whether you’re capturing a special trip, sharing milestones across the generations, or staying close across oceans, TouchNote helps you connect with those that matter most.
 
@@ -31,15 +31,19 @@ features:
 
 <div class="bg--grey-lightest">
   <div class="container">
-    <div class="row row--valign-center">
-      <div class="col col--6">
-        <p class="text--xxl">{{page.intro}}</p>
-        <p class="text--xxl">Use the promo code to enjoy four free cards on a 14-day free trial</p>
-        <div class="promo-code">ESCAPE</div><br />
-        <a href="{{site.client.link}}" class="btn btn--cyan">Download the app</a>
+    <div class="row row--no-gutters row--xxxl-6-6 row--valign-center">
+      <div class="col">
+        <div class="width width--lg vpad--xl text--center text--xxxl-left">
+          <p class="text--xxl">{{page.intro}}</p>
+          <p class="text--xxl">Use the promo code to enjoy four free cards on a 14-day free trial</p>
+          <div class="promo-code">ESCAPE</div><br />
+          <a id="track-{{page.id}}-intro-download-btn" href="{{site.client.link}}" class="btn btn--cyan">Download the app</a>
+        </div>
       </div>
-      <div class="col col--6">
-        <div class="bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/touchnote/iphone.png);"></div>
+      <div class="col">
+        <div class="width width--lg">
+          <div class="bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/touchnote/iphone.png);"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -51,20 +55,20 @@ features:
       <div class="bob{% cycle '', ' bob--swap' %}">
         <div class="bob__img">
           <div class="bg-img bg-img--4-3 bg-img--float" style="background-image: url('{{site.img}}/content/touchnote/{{item.id}}.jpg');">
-            <a class="bg-img__link" href="{{site.client.link}}"></a>
+            <a id="track-{{page.id}}-{{item.id}}-img" class="bg-img__link" href="{{site.client.link}}"></a>
           </div>
         </div>
         <div class="bob__text">
           <h2 class="title title--xl title--color">{{item.title}}</h2>
           <p class="text--xl">{{item.description}}</p>
           <div class="space--sm"></div>
-          <a href="{{site.client.link}}" class="btn btn--sm btn--outline btn--outline-cyan">Find out more</a>
+          <a id="track-{{page.id}}-{{item.id}}-btn" href="{{site.client.link}}" class="btn btn--sm btn--outline btn--outline-cyan">Find out more</a>
         </div>
       </div>
     {% endfor %}
     <div class="text--center">
       <div class="space--xxxl"></div>
-      <a href="{{site.client.link}}" class="btn btn--cyan btn--lg">Download the app</a>
+      <a id="track-{{page.id}}-end-download-btn" href="{{site.client.link}}" class="btn btn--cyan btn--lg">Download the app</a>
     </div>
   </div>
 </div>

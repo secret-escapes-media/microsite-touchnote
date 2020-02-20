@@ -1,7 +1,6 @@
 // all banner types on site
 
 .title {
-
   // custom content headline
   font-family: $font-title-01;
   font-weight: 600;
@@ -26,33 +25,34 @@
     &--xxs    { font-size: $s2; }
     &--xxxs   { font-size: $s1; }
   }
-
+  &--competition{
+    font-size: $s6;
+    @include bp($md){ font-size: $s7; }
+    @include bp($lg){ font-size: $s8; }
+    @include bp($xl){ font-size: $s9; }
+  }
 }
 
 .sub-title {
-
   // custom content headline
   margin-top: 0.66em;
   font-family: $font-title-01;
   font-size: $s2; // default size
-  &--lg     { font-size: $s4; }
+  &--lg     { font-size: $s3; }
   &--sm     { font-size: $s0; }
   @include bp($lg){
     font-size: $s3; // default size
     &--lg     { font-size: $s5; }
     &--sm     { font-size: $s1; }
   }
-
 }
 
 
 .core-title {
-
   // open-sans – core site typeface
   font-family: $font-core;
   font-weight: 300;
   letter-spacing: -.02em;
-
   &--xxxl   { font-size: $s8; line-height: 1.1; }
   &--xxl    { font-size: $s7; line-height: 1.1; }
   &--xl     { font-size: $s6; line-height: 1.2; }
@@ -73,18 +73,16 @@
     &--xxs    { font-size: $s2; line-height: 1.35; }
     &--xxxs   { font-size: $s1; line-height: 1.4; }
   }
-
 }
 
-
 .banner-title {
-
-  line-height: 1;
+  line-height: 1.1;
   font-family: $font-title-01;
   text-transform: uppercase;
-  font-size: $s5;
+  font-size: $s6;
   font-weight: 600;
   @include bp($md){ font-size: $s7; }
-  @include bp($xl){ font-size: $s10; }
-
+  @include bp($lg){ font-size: $s8; }
+  @include bp($xl){ font-size: $s9; line-height: 1; }
+  @include bp($xxl){ font-size: $s10; }
 }

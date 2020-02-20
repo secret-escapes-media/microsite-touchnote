@@ -13,18 +13,34 @@
 }
 
 .banner-logo {
-  display: inline-block;
-  background-image: url("../img/logo/partner.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 40%;
-  max-width: 180px;
-  margin-left: 8px;
-  &:before {
-    content: "";
+  max-width: 130px;
+  vertical-align: baseline;
+  @include bp($lg) {
+    margin-left: 5px;
+    max-width: 180px;
+  }
+}
+
+// .banner-logo {
+//   display: inline-block;
+//   background-image: url("../img/logo/partner.svg");
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   width: 40%;
+//   max-width: 180px;
+//   margin-left: 8px;
+//   &:before {
+//     content: "";
+//     display: block;
+//     width: 100%;
+//     padding-top: 18%;
+//   }
+// }
+
+.desktop-break {
+  display: none;
+  @include bp($xxxl) {
     display: block;
-    width: 100%;
-    padding-top: 18%;
   }
 }
