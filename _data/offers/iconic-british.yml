@@ -1,39 +1,39 @@
-- title: Spectacular Oslo & Bergen break with optional fjord tour
-  id: spectacular-oslo-bergen-break-with-optional-fjord-tour
-  location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
-  description: A fantastic four-night trip to Norway's Oslo and Bergen, with one of the world's most scenic train journeys between the two cities - including flights and an optional fjord tour
-  price: 459
-  price-description: per person for 4 nights
-  saved: 37
-  expires: 2020/04/14
-  link: https://www.secretescapes.com/spectacular-oslo-and-bergen-break-with-optional-fjord-tour-scandic-st-olavs-plass-and-clarion-hotel-admiral-norway-2/sale?gce_urg=0&utm_source=SE&utm_campaign=7_Norway_201703&utm_medium=Hub
-
-- title: Farris Bad
-  id: farris-bad
-  location: Larvik, Norway
-  description: Upscale beachfront stay at the first Nordic balneological health resort, with a supersized spa
-  price: 214
+- title: Inn on the Lake
+  location: Ullswater, Lake District
+  description: Luxury Lake District hotel by Ullswater
+  price: 169
   price-description: per room per night
-  saved: 33
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/farris-bad-larvik-norway/sale?gce_urg=1&gce_scp=0&utm_source=SE&utm_medium=Hub&utm_campaign=12_Norway_201703
+  saved: 56
+  expires: 2020/03/03
+  image: https://secretescapes-web.imgix.net/sales/110638/ba99e06f_2755_4d27_a5f4_f857cbc242ef.jpg?auto=format,compress
+  link: https://www.secretescapes.com/inn-on-the-lake-ullswater-lake-district/sale
 
-- title: First Hotel Marin
-  id: first-hotel-marin
-  location: Bergen, Norway
-  description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
-  price: 48
+- title: Fowey Hall
+  location: Fowey, Cornwall
+  description: Top-rated Cornwall beach stay that inspired Toad Hall
+  price: 119
+  price-description: per room per night
+  saved: 49
+  expires: 2020/03/03
+  image: https://secretescapes-web.imgix.net/sales/109874/ee94ba04_f310_44d2_aae5_1d94be4d6929.jpg?auto=format,compress
+  link: https://www.secretescapes.com/the-fowey-hall-fowey-cornwall/sale
+
+- title: The Grand Brighton
+  location: Brighton, East Sussex
+  description: Charming stay in Brighton’s most iconic seafront hotel
+  price: 139
   price-description: per room per night
   saved: 43
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/first-hotel-marin-bergen-norway/sale?gce_scp=1&utm_source=SE&utm_medium=Hub&utm_campaign=13_Norway_201704
+  expires: 2020/03/03
+  image: https://secretescapes-web.imgix.net/sales/108300/3700dc1f_cf9b_4b86_8200_b6659b1c445b.jpg?auto=format,compress
+  link: https://www.secretescapes.com/the-grand-brighton-brighton-east-sussex/sale
 
-- title: Magic Hotel
-  id: magic-hotel
-  location: Bergen, Norway
-  description: A brand-new hip hotel in the centre of Bergen, designed by a top New York designer
-  price: 73
+- title: Victory House Hotel
+  location: Leicester Square, Central London
+  description: Soak up London life with a fabulous, film-inspired hotel
+  price: 135
   price-description: per room per night
-  saved: 55
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/magic-hotel-bergen-norway/sale?gce_hpf=1&utm_source=SE&utm_medium=Hub&utm_campaign=14_Norway_201704
+  saved: 56
+  expires: 2020/02/25
+  image: https://secretescapes-web.imgix.net/sales/60921/ab0c1aa2_b134_4a84_80a1_5245e3897186.jpg?auto=format,compress
+  link: https://www.secretescapes.com/victory-house-hotel-leicester-square-central-london/sale
