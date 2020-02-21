@@ -17,8 +17,8 @@ enter-cta: Enter Now
 
 competition-form:
   id: comp
-  post-url: "#getFormUrl"
-  expiry-date: 2050-01-01
+  post-url: https://getform.io/f/43533694-3835-4497-a1bf-376510e34d0c
+  expiry-date: 2020-04-21
   fields:
     - id: name
       type: text
@@ -32,17 +32,28 @@ competition-form:
       type: text
       label: Tell us who you want to reconnect with on your dream break
       required: true
-    - id: opt-in
+    - id: opt-in-touchnote
       type: radio
       label: Would you like to receive emails from TouchNote?
       extra: >
         You’ll receive important notifications, news, reminders, tips and other relevant offers. Find out more about our <a class="link--underlined" href="https://touchnote.com/policy/" target="_blank">Privacy Policy</a>.
       required: true
       options:
-        - id: opt-in-true
+        - id: opt-in-touchnote-true
           label: 'Yes'
           value: 'yes'
-        - id: opt-in-false
+        - id: opt-in-touchnote-false
+          label: 'No'
+          value: 'no'
+    - id: opt-in-gararock
+      type: radio
+      label: Would you like to hear more from Gara Rock?
+      required: true
+      options:
+        - id: opt-in-gararock-true
+          label: 'Yes'
+          value: 'yes'
+        - id: opt-in-gararock-false
           label: 'No'
           value: 'no'
 
