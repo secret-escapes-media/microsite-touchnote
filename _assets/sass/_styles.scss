@@ -44,3 +44,16 @@
     display: block;
   }
 }
+
+.app-badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  @include bp($md) { flex-direction: row; }
+}
+.app-badge {
+  padding: $s-4 $s0;
+  &--android { width: 180px; }
+  &--ios { width: 180px; }
+}
