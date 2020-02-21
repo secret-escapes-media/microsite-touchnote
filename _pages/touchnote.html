@@ -37,7 +37,7 @@ features:
           <p class="text--xxl">{{page.intro}}</p>
           <p class="text--xxl">Use the promo code to enjoy four free cards on a 14-day free trial</p>
           <div class="promo-code">ESCAPE</div><br />
-          <a id="track-{{page.id}}-intro-download-btn" href="{{site.client.link}}" class="btn btn--cyan">Download the app</a>
+          <a id="track-{{page.id}}-intro-download-btn" href="{{site.client.link}}" class="btn btn--cyan js-open-modal" data-open-modal="download-app">Download the app</a>
         </div>
       </div>
       <div class="col">
@@ -68,7 +68,7 @@ features:
     {% endfor %}
     <div class="text--center">
       <div class="space--xxxl"></div>
-      <a id="track-{{page.id}}-end-download-btn" href="{{site.client.link}}" class="btn btn--cyan btn--lg">Download the app</a>
+      <a id="track-{{page.id}}-end-download-btn" href="{{site.client.link}}" class="btn btn--cyan btn--lg js-open-modal" data-open-modal="download-app">Download the app</a>
     </div>
   </div>
 </div>

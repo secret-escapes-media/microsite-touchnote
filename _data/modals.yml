@@ -17,6 +17,27 @@
 #
 #####################################
 
+- id: download-app
+  pages:
+    - id: breaks
+    - id: touchnote
+  content: >
+    <div class="content-spacing text--center">
+      <div class="vpad--xs width width--lg">
+        <p class="title title--xxs">Download the TouchNote app for <a id="modal-download-text-android" class="link" href="https://play.google.com/store/apps/details?id=com.touchnote.android&hl=en_GB">Android</a>, <a id="modal-download-text-iphone" class="link" href="https://apps.apple.com/gb/app/touchnote-cards-gifts/id325525543">iPhone</a> or <a id="modal-download-text-ipad" class="link" href="https://apps.apple.com/gb/app/touchnote-cards-gifts/id325525543">iPad</a> and keep in touch, wherever you are in the&nbsp;world!</p>
+        <div class="space--xs"></div>
+        <div class="app-badges">
+          <a id="modal-download-badge-app-store" href="https://apps.apple.com/gb/app/touchnote-cards-gifts/id325525543">
+            <img class="app-badge app-badge--ios" src="{{site.img}}/icons/apple-app-store-badge.svg" alt="Download on the App Store">
+          </a>
+          <a id="modal-download-badge-google-play" href="https://play.google.com/store/apps/details?id=com.touchnote.android&hl=en_GB">
+            <img class="app-badge app-badge--android" src="{{site.img}}/icons/google-play-badge.svg" alt="Get it on Google Play">
+          </a>
+        </div>
+      </div>
+    </div>
+
+
 #################################################
 #   Competition
 #################################################
