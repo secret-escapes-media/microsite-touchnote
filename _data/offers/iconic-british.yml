@@ -28,12 +28,13 @@
   image: https://secretescapes-web.imgix.net/sales/108300/3700dc1f_cf9b_4b86_8200_b6659b1c445b.jpg?auto=format,compress
   link: https://www.secretescapes.com/the-grand-brighton-brighton-east-sussex/sale
 
-- title: Victory House Hotel
-  location: Leicester Square, Central London
-  description: Soak up London life with a fabulous, film-inspired hotel
-  price: 135
-  price-description: per room per night
-  saved: 56
-  expires: 2020/02/25
-  image: https://secretescapes-web.imgix.net/sales/60921/ab0c1aa2_b134_4a84_80a1_5245e3897186.jpg?auto=format,compress
-  link: https://www.secretescapes.com/victory-house-hotel-leicester-square-central-london/sale
+- title: Retallack Resort & Spa
+  location: Winnards Perch, near Padstow, Cornwall
+  description: Award-winning, self-catering stay near Padstow
+  price: 49
+  price-description: per apartment per night
+  saved: 48
+  expires: 2020/03/10
+  image: https://secretescapes-web.imgix.net/sales/45323/1c252033_d746_4135_844e_c87e320dfbd7.jpg?auto=format,compress
+  link: https://www.secretescapes.com/retallack-resort-and-spa-winnards-perch-near-padstow-cornwall/sale
+

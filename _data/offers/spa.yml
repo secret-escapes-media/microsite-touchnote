@@ -8,16 +8,6 @@
   image: https://secretescapes-web.imgix.net/sales/34534/11cb61f5_903b_4d40_ac82_d9ce43ada982.jpg?auto=format,compress
   link: https://www.secretescapes.com/champneys-springs-packington-leicestershire/sale
 
-- title: Eastwell Manor Champneys Hotel & Spa
-  location: Ashford, Kent
-  description: Kent manor house with plush Champneys spa
-  price: 198
-  price-description: per room per night
-  saved: 50
-  expires: 2020/02/25
-  image: https://secretescapes-web.imgix.net/sales/60131/4be4bbc6_8870_4767_a800_8440eb306049.jpg?auto=format,compress
-  link: https://www.secretescapes.com/eastwell-manor-champneys-hotel-and-spa-ashford-kent/sale
-
 - title: Macdonald Berystede Hotel & Spa
   location: Ascot, Berkshire
   description: Grand French château-style stately home near Windsor
@@ -28,12 +18,22 @@
   image: https://secretescapes-web.imgix.net/sales/38770/d9e75d66_f4c6_4759_8a6b_31c9b4bf3d58.jpg?auto=format,compress
   link: https://www.secretescapes.com/macdonald-berystede-hotel-and-spa-ascot-berkshire/sale
 
-- title: Wood Hall Hotel & Spa
-  location: Wetherby, West Yorkshire
-  description: Historic Yorkshire countryside spa hotel
-  price: 169
+- title: 5* Alexander House & Utopia Spa
+  location: East Grinstead, West Sussex
+  description: Five-star luxe at a West Sussex spa haven
+  price: 239
   price-description: per room per night
-  saved: 41
-  expires: 2020/02/25
-  image: https://secretescapes-web.imgix.net/sales/100128/c7b713e3_7e41_4196_adc9_7f0afb2e5e62.jpg?auto=format,compress
-  link: https://www.secretescapes.com/wood-hall-hotel-and-spa-wetherby-west-yorkshire/sale
+  saved: 32
+  expires: 2020/03/10
+  image: https://secretescapes-web.imgix.net/sales/111116/b9e3b788_c8c6_44b7_9c64_c9b07a6bdf80.jpg?auto=format,compress
+  link: https://www.secretescapes.com/5-star-alexander-house-and-utopia-spa-east-grinstead-west-sussex/sale
+
+- title: Mallory Court Hotel & Spa
+  location: Royal Leamington Spa, Warwickshire
+  description: A charming Warwickshire Relais & Châteaux property in Leamington Spa
+  price: 139
+  price-description: per room per night
+  saved: 49
+  expires: 2020/03/10
+  image: https://secretescapes-web.imgix.net/sales/110657/86b2d2d3_f285_437f_b445_e8035fe13ef9.jpg?auto=format,compress
+  link: https://www.secretescapes.com/mallory-court-hotel-and-spa-royal-leamington-spa-warwickshire/sale
