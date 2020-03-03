@@ -8,16 +8,6 @@
   image: https://secretescapes-web.imgix.net/sales/110638/ba99e06f_2755_4d27_a5f4_f857cbc242ef.jpg?auto=format,compress
   link: https://www.secretescapes.com/inn-on-the-lake-ullswater-lake-district/sale
 
-- title: Fowey Hall
-  location: Fowey, Cornwall
-  description: Top-rated Cornwall beach stay that inspired Toad Hall
-  price: 119
-  price-description: per room per night
-  saved: 49
-  expires: 2020/03/03
-  image: https://secretescapes-web.imgix.net/sales/109874/ee94ba04_f310_44d2_aae5_1d94be4d6929.jpg?auto=format,compress
-  link: https://www.secretescapes.com/the-fowey-hall-fowey-cornwall/sale
-
 - title: The Grand Brighton
   location: Brighton, East Sussex
   description: Charming stay in Brighton’s most iconic seafront hotel
@@ -38,3 +28,12 @@
   image: https://secretescapes-web.imgix.net/sales/45323/1c252033_d746_4135_844e_c87e320dfbd7.jpg?auto=format,compress
   link: https://www.secretescapes.com/retallack-resort-and-spa-winnards-perch-near-padstow-cornwall/sale
 
+- title: The Lugger Hotel
+  location: Portloe, Cornwall
+  description: Former smuggler's haunt on the Cornish coast
+  price: 144
+  price-description: per room per night
+  saved: 44
+  expires: 2020/03/17
+  image: https://secretescapes-web.imgix.net/sales/57080/7d186ed9_9020_4ffb_9249_fd27a27275af.jpg?auto=format,compress
+  link: https://www.secretescapes.com/the-lugger-hotel-portloe-cornwall/sale

@@ -8,26 +8,6 @@
   image: https://secretescapes-web.imgix.net/sales/62811/0c730511_b59a_4f3a_b495_c8c8d796fb3c.jpg?auto=format,compress
   link: https://www.secretescapes.com/charming-isles-of-scilly-break-st-marys-hall-hotel-hugh-town/sale
 
-- title: Loch Melfort Hotel
-  location: Argyll, Scottish Highlands
-  description: Dramatic Scottish landscapes and sea views on the Argyll coast
-  price: 125
-  price-description: per room per night
-  saved: 49
-  expires: 2020/03/03
-  image: https://secretescapes-web.imgix.net/sales/54183/be82b4cb_9702_4402_8275_31ff98585025.jpg?auto=format,compress
-  link: https://www.secretescapes.com/loch-melfort-hotel-argyll-scottish-highlands/sale
-
-- title: Pine Lake by Diamond Resorts
-  location: Carnforth, Lancashire
-  description: Scenic and secluded Lancashire retreat by Pine Lake
-  price: 39
-  price-description: per apartment per night
-  saved: 54
-  expires: 2020/03/03
-  image: https://secretescapes-web.imgix.net/sales/67654/33cf3112_6a75_4fd5_a99d_e740f1bc03fd.jpg?auto=format,compress
-  link: https://www.secretescapes.com/pine-lake-by-diamond-resorts-carnforth-lancashire/sale
-
 - title: Plas Dinas Country House
   location: Caernarfon, Wales
   description: Five-star country house stay in Snowdonia
@@ -37,3 +17,23 @@
   expires: 2020/03/03
   image: https://secretescapes-web.imgix.net/sales/80241/dfe3a62b_817e_4acf_a789_b3e5f58ed643.jpg?auto=format,compress
   link: https://www.secretescapes.com/plas-dinas-country-house-caernarfon-wales/sale
+
+- title: Atlantic Surf Pods
+  location: Bude, Cornwall
+  description: Quirky coastal Cornwall eco-pods and treehouses
+  price: 43
+  price-description: per room per night
+  saved: 51
+  expires: 2020/03/10
+  image: https://secretescapes-web.imgix.net/sales/110722/eebfe3bf_baf6_40da_bae1_f3287eaa4db1.jpg?auto=format,compress
+  link: https://www.secretescapes.com/atlantic-surf-pods-bude-cornwall/sale
+
+- title: Eagle Brae Log Cabins
+  location: Inverness-shire, Scotland
+  description: Luxurious self-catering wilderness lodge in the Scottish Highlands
+  price: 156
+  price-description: per lodge per night
+  saved: 30
+  expires: 2020/03/17
+  image: https://secretescapes-web.imgix.net/sales/110621/d8f46527_5611_4d7f_b089_fc2f143159bb.jpg?auto=format,compress
+  link: https://www.secretescapes.com/eagle-brae-log-cabins-beauly-inverness-shire-scotland/sale
