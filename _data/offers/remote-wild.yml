@@ -8,26 +8,6 @@
   image: https://secretescapes-web.imgix.net/sales/62811/0c730511_b59a_4f3a_b495_c8c8d796fb3c.jpg?auto=format,compress
   link: https://www.secretescapes.com/charming-isles-of-scilly-break-st-marys-hall-hotel-hugh-town/sale
 
-- title: Plas Dinas Country House
-  location: Caernarfon, Wales
-  description: Five-star country house stay in Snowdonia
-  price: 99
-  price-description: per room per night
-  saved: 36
-  expires: 2020/03/03
-  image: https://secretescapes-web.imgix.net/sales/80241/dfe3a62b_817e_4acf_a789_b3e5f58ed643.jpg?auto=format,compress
-  link: https://www.secretescapes.com/plas-dinas-country-house-caernarfon-wales/sale
-
-- title: Atlantic Surf Pods
-  location: Bude, Cornwall
-  description: Quirky coastal Cornwall eco-pods and treehouses
-  price: 43
-  price-description: per room per night
-  saved: 51
-  expires: 2020/03/10
-  image: https://secretescapes-web.imgix.net/sales/110722/eebfe3bf_baf6_40da_bae1_f3287eaa4db1.jpg?auto=format,compress
-  link: https://www.secretescapes.com/atlantic-surf-pods-bude-cornwall/sale
-
 - title: Eagle Brae Log Cabins
   location: Inverness-shire, Scotland
   description: Luxurious self-catering wilderness lodge in the Scottish Highlands
@@ -37,3 +17,23 @@
   expires: 2020/03/17
   image: https://secretescapes-web.imgix.net/sales/110621/d8f46527_5611_4d7f_b089_fc2f143159bb.jpg?auto=format,compress
   link: https://www.secretescapes.com/eagle-brae-log-cabins-beauly-inverness-shire-scotland/sale
+
+- title: The Private Hill
+  location: Malton, North Yorkshire
+  description: Cutting-edge North Yorkshire glamping dome with country views
+  price: 145
+  price-description: per room per night
+  saved: 21
+  expires: 2020/03/24
+  image: https://secretescapes-web.imgix.net/sales/96258/63b316fd_fdb6_44ea_b43e_be905e6c2678.jpg?auto=format,compress
+  link: https://www.secretescapes.com/the-private-hill-malton-north-yorkshire/sale
+
+- title: Giraffe Lodge
+  location: Port Lympne Hotel & Reserve, Kent
+  description: Adults-only glamping stay at an award-winning Kent safari park
+  price: 410
+  price-description: per lodge per night
+  saved: 36
+  expires: 2020/03/17
+  image: https://secretescapes-web.imgix.net/sales/30491/cad79694_b957_44ed_a4ed_60ca46573b8f.jpg?auto=format,compress
+  link: https://www.secretescapes.com/giraffe-lodge-port-lympne-hotel-and-reserve-kent/sale
