@@ -1,12 +1,3 @@
-- title: Charming Isles of Scilly break
-  location: St Mary's Hall Hotel, Hugh Town
-  description: Escape to an award-winning Isles of Scilly townhouse
-  price: 449
-  price-description: per person. Based on 2 people for 3 nights
-  saved: 29
-  expires: 2020/03/03
-  image: https://secretescapes-web.imgix.net/sales/62811/0c730511_b59a_4f3a_b495_c8c8d796fb3c.jpg?auto=format,compress
-  link: https://www.secretescapes.com/charming-isles-of-scilly-break-st-marys-hall-hotel-hugh-town/sale
 
 - title: Eagle Brae Log Cabins
   location: Inverness-shire, Scotland
@@ -28,12 +19,22 @@
   image: https://secretescapes-web.imgix.net/sales/96258/63b316fd_fdb6_44ea_b43e_be905e6c2678.jpg?auto=format,compress
   link: https://www.secretescapes.com/the-private-hill-malton-north-yorkshire/sale
 
-- title: Giraffe Lodge
-  location: Port Lympne Hotel & Reserve, Kent
-  description: Adults-only glamping stay at an award-winning Kent safari park
-  price: 410
-  price-description: per lodge per night
-  saved: 36
-  expires: 2020/03/17
-  image: https://secretescapes-web.imgix.net/sales/30491/cad79694_b957_44ed_a4ed_60ca46573b8f.jpg?auto=format,compress
-  link: https://www.secretescapes.com/giraffe-lodge-port-lympne-hotel-and-reserve-kent/sale
+- title: Bodelwyddan Castle Hotel
+  location: Bodelwyddan, North Wales
+  description: Adults-only Warner Leisure hotel in a Welsh castle
+  price: 131
+  price-description: per room per night
+  saved: 31
+  expires: 2020/03/31
+  image: https://secretescapes-web.imgix.net/sales/102669/a3b4bfc6_e22d_4eaa_82b1_397a7e6453f7.jpg?auto=format,compress
+  link: https://www.secretescapes.com/bodelwyddan-castle-hotel-bodelwyddan-north-wales/sale
+
+- title: Manor House Hotel at Alsager
+  location: Stoke-on-Trent, Staffordshire
+  description: Rural Midlands farmhouse escape
+  price: 57
+  price-description: per room per night
+  saved: 64
+  expires: 2020/03/31
+  image: https://secretescapes-web.imgix.net/sales/93862/631ce1e2_6168_4148_9f59_115200899652.jpg?auto=format,compress
+  link: https://www.secretescapes.com/manor-house-hotel-at-alsager-stoke-on-trent-staffordshire-uk/sale

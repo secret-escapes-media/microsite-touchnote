@@ -1,32 +1,3 @@
-- title: Inn on the Lake
-  location: Ullswater, Lake District
-  description: Luxury Lake District hotel by Ullswater
-  price: 169
-  price-description: per room per night
-  saved: 56
-  expires: 2020/03/03
-  image: https://secretescapes-web.imgix.net/sales/110638/ba99e06f_2755_4d27_a5f4_f857cbc242ef.jpg?auto=format,compress
-  link: https://www.secretescapes.com/inn-on-the-lake-ullswater-lake-district/sale
-
-- title: The Grand Brighton
-  location: Brighton, East Sussex
-  description: Charming stay in Brighton’s most iconic seafront hotel
-  price: 139
-  price-description: per room per night
-  saved: 43
-  expires: 2020/03/03
-  image: https://secretescapes-web.imgix.net/sales/108300/3700dc1f_cf9b_4b86_8200_b6659b1c445b.jpg?auto=format,compress
-  link: https://www.secretescapes.com/the-grand-brighton-brighton-east-sussex/sale
-
-- title: Retallack Resort & Spa
-  location: Winnards Perch, near Padstow, Cornwall
-  description: Award-winning, self-catering stay near Padstow
-  price: 49
-  price-description: per apartment per night
-  saved: 48
-  expires: 2020/03/10
-  image: https://secretescapes-web.imgix.net/sales/45323/1c252033_d746_4135_844e_c87e320dfbd7.jpg?auto=format,compress
-  link: https://www.secretescapes.com/retallack-resort-and-spa-winnards-perch-near-padstow-cornwall/sale
 
 - title: Danubius Hotel Regents Park
   location: Regents Park, London
@@ -37,3 +8,33 @@
   expires: 2020/03/24
   image: https://secretescapes-web.imgix.net/sales/71662/31af72e7_0034_4d86_93a8_f7c7e650d6b7.jpg?auto=format,compress
   link: https://www.secretescapes.com/danubius-hotel-regents-park-regents-park-london/sale
+
+- title: Carbis Bay Hotel & Estate
+  location: St Ives, Cornwall
+  description: Award-winning St Ives beach hotel with a spa
+  price: 129
+  price-description: per room per night
+  saved: 59
+  expires: 2020/03/31
+  image: https://secretescapes-web.imgix.net/sales/42163/bb6c6a90_5b6f_4fb4_a8d9_0129c2031e80.jpg?auto=format,compress
+  link: https://www.secretescapes.com/carbis-bay-hotel-and-estate-st-ives-cornwall/sale
+
+- title: The Ickworth Hotel
+  location: Bury St Edmunds, Suffolk
+  description: Stately Suffolk retreat brimming with grandeur
+  price: 119
+  price-description: per room per night
+  saved: 50
+  expires: 2020/03/31
+  image: https://secretescapes-web.imgix.net/sales/41272/8d0393c5_2ddc_4366_a6f6_407d21683b5a.jpg?auto=format,compress
+  link: https://www.secretescapes.com/the-ickworth-hotel-bury-st-edmunds-suffolk/sale
+
+- title: Gisborough Hall Hotel
+  location: Guisborough, North Yorkshire
+  description: Ivy-clad country house by the North Yorkshire Moors
+  price: 99
+  price-description: per room per night
+  saved: 50
+  expires: 2020/03/31
+  image: https://secretescapes-web.imgix.net/hotels/26/94e4bb74_63ca_430e_a9cc_02471dcf4f93.jpg?auto=format,compress
+  link: https://www.secretescapes.com/gisborough-hall-hotel-guisborough-north-yorkshire/sale-hotel

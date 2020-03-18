@@ -8,16 +8,6 @@
   image: https://secretescapes-web.imgix.net/sales/111116/b9e3b788_c8c6_44b7_9c64_c9b07a6bdf80.jpg?auto=format,compress
   link: https://www.secretescapes.com/5-star-alexander-house-and-utopia-spa-east-grinstead-west-sussex/sale
 
-- title: Mallory Court Hotel & Spa
-  location: Royal Leamington Spa, Warwickshire
-  description: A charming Warwickshire Relais & Châteaux property in Leamington Spa
-  price: 139
-  price-description: per room per night
-  saved: 49
-  expires: 2020/03/10
-  image: https://secretescapes-web.imgix.net/sales/110657/86b2d2d3_f285_437f_b445_e8035fe13ef9.jpg?auto=format,compress
-  link: https://www.secretescapes.com/mallory-court-hotel-and-spa-royal-leamington-spa-warwickshire/sale
-
 - title: The Cornwall Hotel, Spa & Estate
   location: St Austell, Cornwall
   description: Luxury Cornish retreat with a state-of-the-art spa
@@ -37,3 +27,14 @@
   expires: 2020/03/24
   image: https://secretescapes-web.imgix.net/sales/45241/03ee511a_a731_457b_a8c6_afa56407290c.jpg?auto=format,compress
   link: https://www.secretescapes.com/champneys-forest-mere-liphook-hampshire/sale
+
+- title: Feversham Arms Hotel & Verbena Spa
+  location: Helmsley, North Yorkshire
+  description: Boutique North Yorkshire retreat with AA Rosette dining
+  price: 129
+  price-description: per room per night
+  saved: 30
+  expires: 2020/03/31
+  image: https://secretescapes-web.imgix.net/sales/49348/65d4d0e4_15c1_4bf5_8c36_3a73fc60f8c2.jpg?auto=format,compress
+  link: https://www.secretescapes.com/feversham-arms-hotel-and-verbena-spa-helmsley-north-yorkshire/sale
+

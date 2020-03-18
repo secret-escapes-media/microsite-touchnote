@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+
+<div class="container">
+
+  <div class="vpad--xxl">
+    <div class="width width--xl text--center">
+      {{page.intro}}
+    </div>
+  </div>
+
+  {% include offer/all-offers-dynamic.html sheet=page.offers.sheet limit=page.offers.limit %}
+  <div class="space--xxxl"></div>
+</div>
+
+{% include page/promo-offers.html %}
+
