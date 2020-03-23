@@ -1,14 +1,4 @@
 
-- title: Danubius Hotel Regents Park
-  location: Regents Park, London
-  description: London pad based near Regent's Park and Lord's Cricket Ground
-  price: 85
-  price-description: per room per night
-  saved: 39
-  expires: 2020/03/24
-  image: https://secretescapes-web.imgix.net/sales/71662/31af72e7_0034_4d86_93a8_f7c7e650d6b7.jpg?auto=format,compress
-  link: https://www.secretescapes.com/danubius-hotel-regents-park-regents-park-london/sale
-
 - title: Carbis Bay Hotel & Estate
   location: St Ives, Cornwall
   description: Award-winning St Ives beach hotel with a spa
@@ -38,3 +28,13 @@
   expires: 2020/03/31
   image: https://secretescapes-web.imgix.net/sales/99890/76610ced_ea11_4c07_b0e8_c2551e41c29d.jpg?auto=format,compress
   link: https://www.secretescapes.com/country-living-lansdown-grove-bath-somerset/sale
+
+- title: Danesfield House Hotel & Spa
+  location: Marlow, Buckinghamshire
+  description: Buckinghamshire estate stay with an award-winning spa
+  price: 189
+  price-description: per room per night
+  saved: 41
+  expires: 2020/03/24
+  image: https://secretescapes-web.imgix.net/sales/86504/38cd8c6a_815c_4430_ae52_ab8b5479d734.jpg?auto=format,compress
+  link: https://www.secretescapes.com/danesfield-house-hotel-and-spa-marlow-buckinghamshire/sale

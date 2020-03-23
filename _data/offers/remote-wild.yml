@@ -1,13 +1,13 @@
 
-- title: Bodelwyddan Castle Hotel
-  location: Bodelwyddan, North Wales
-  description: Adults-only Warner Leisure hotel in a Welsh castle
-  price: 131
+- title: Manor House Hotel at Alsager
+  location: Stoke-on-Trent, Staffordshire
+  description: Rural Midlands farmhouse escape
+  price: 57
   price-description: per room per night
-  saved: 31
+  saved: 64
   expires: 2020/03/31
-  image: https://secretescapes-web.imgix.net/sales/102669/a3b4bfc6_e22d_4eaa_82b1_397a7e6453f7.jpg?auto=format,compress
-  link: https://www.secretescapes.com/bodelwyddan-castle-hotel-bodelwyddan-north-wales/sale
+  image: https://secretescapes-web.imgix.net/sales/93862/631ce1e2_6168_4148_9f59_115200899652.jpg?auto=format,compress
+  link: https://www.secretescapes.com/manor-house-hotel-at-alsager-stoke-on-trent-staffordshire-uk/sale
 
 - title: Manor House Hotel at Alsager
   location: Stoke-on-Trent, Staffordshire
@@ -19,22 +19,22 @@
   image: https://secretescapes-web.imgix.net/sales/93862/631ce1e2_6168_4148_9f59_115200899652.jpg?auto=format,compress
   link: https://www.secretescapes.com/manor-house-hotel-at-alsager-stoke-on-trent-staffordshire-uk/sale
 
-- title: Hy Hotel
-  location: Lytham, Lancashire
-  description: Aparthotel seaside stay near Lytham St Annes
-  price: 99
+- title: The Tennants Arms Hotel
+  location: Kilnsey, Yorkshire
+  description: Quaint country living in the Yorkshire Dales
+  price: 105
   price-description: per room per night
-  saved: 66
+  saved: 46
   expires: 2020/03/31
-  image: https://secretescapes-web.imgix.net/sales/110271/7cc756dd_7ffd_46f1_b22c_571fbcd88349.jpg?auto=format,compress
-  link: https://www.secretescapes.com/hy-hotel-lytham-lancashire/sale
+  image: https://secretescapes-web.imgix.net/sales/108875/4a3330be_11f2_4fe6_a62c_438f8f6651e3.jpg?auto=format,compress
+  link: https://www.secretescapes.com/the-tennants-arms-hotel-kilnsey-yorkshire/sale
 
-- title: Ruthin Castle Hotel & Spa
-  location: Ruthin, North Wales
-  description: Bed down within a centuries-old castle in North Wales
-  price: 99
+- title: De Vere Cotswold Water Park
+  location: near Cirencester, Cotswolds
+  description: Modern Cotswolds spa retreat surrounded by nature
+  price: 134
   price-description: per room per night
-  saved: 45
+  saved: 48
   expires: 2020/03/31
-  image: https://secretescapes-web.imgix.net/sales/70504/af2a081b_e844_45bc_ac28_d495075ee50d.jpg?auto=format,compress
-  link: https://www.secretescapes.com/ruthin-castle-hotel-and-spa-ruthin-north-wales/sale  
+  image: https://secretescapes-web.imgix.net/sales/101398/3a8beef2_33e7_482f_b7c1_f9acdc095101.jpg?auto=format,compress
+  link: https://www.secretescapes.com/de-vere-cotswold-water-park-near-cirencester-cotswolds-uk/sale
