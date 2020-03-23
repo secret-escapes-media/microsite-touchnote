@@ -8,16 +8,6 @@
   image: https://secretescapes-web.imgix.net/sales/111116/b9e3b788_c8c6_44b7_9c64_c9b07a6bdf80.jpg?auto=format,compress
   link: https://www.secretescapes.com/5-star-alexander-house-and-utopia-spa-east-grinstead-west-sussex/sale
 
-- title: The Cornwall Hotel, Spa & Estate
-  location: St Austell, Cornwall
-  description: Luxury Cornish retreat with a state-of-the-art spa
-  price: 89
-  price-description: per room per night
-  saved: 48
-  expires: 2020/03/17
-  image: https://secretescapes-web.imgix.net/sales/106332/a936807a_fe6a_40fc_834f_668582466813.jpg?auto=format,compress
-  link: https://www.secretescapes.com/the-cornwall-hotel-spa-and-estate-st-austell-cornwall/sale
-
 - title: Champneys Forest Mere
   location: Liphook, Hampshire
   description: Luxe Champneys spa stay in the Hampshire countryside
@@ -28,13 +18,22 @@
   image: https://secretescapes-web.imgix.net/sales/45241/03ee511a_a731_457b_a8c6_afa56407290c.jpg?auto=format,compress
   link: https://www.secretescapes.com/champneys-forest-mere-liphook-hampshire/sale
 
-- title: Feversham Arms Hotel & Verbena Spa
-  location: Helmsley, North Yorkshire
-  description: Boutique North Yorkshire retreat with AA Rosette dining
-  price: 129
+- title: New Hall Hotel & Spa
+  location: Sutton Coldfield, Birmingham
+  description: Palatial historic hotel and spa in Birmingham
+  price: 149
   price-description: per room per night
-  saved: 30
+  saved: 36
   expires: 2020/03/31
-  image: https://secretescapes-web.imgix.net/sales/49348/65d4d0e4_15c1_4bf5_8c36_3a73fc60f8c2.jpg?auto=format,compress
-  link: https://www.secretescapes.com/feversham-arms-hotel-and-verbena-spa-helmsley-north-yorkshire/sale
+  image: https://secretescapes-web.imgix.net/sales/96752/ab57b103_e81e_4b01_8f94_2e5f82c60cc3.jpg?auto=format,compress
+  link: https://www.secretescapes.com/new-hall-hotel-and-spa-sutton-coldfield-birmingham/sale
 
+- title: Carbis Bay Hotel & Estate
+  location: St Ives, Cornwall
+  description: Award-winning St Ives beach hotel with a spa
+  price: 149
+  price-description: per room per night
+  saved: 59
+  expires: 2020/03/31
+  image: https://secretescapes-web.imgix.net/sales/96436/4548e885_168b_4bdd_8fe5_73d184e4b61a.jpg?auto=format,compress
+  link: https://www.secretescapes.com/carbis-bay-hotel-and-estate-st-ives-cornwall/sale

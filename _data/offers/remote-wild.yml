@@ -1,24 +1,4 @@
 
-- title: Eagle Brae Log Cabins
-  location: Inverness-shire, Scotland
-  description: Luxurious self-catering wilderness lodge in the Scottish Highlands
-  price: 156
-  price-description: per lodge per night
-  saved: 30
-  expires: 2020/03/17
-  image: https://secretescapes-web.imgix.net/sales/110621/d8f46527_5611_4d7f_b089_fc2f143159bb.jpg?auto=format,compress
-  link: https://www.secretescapes.com/eagle-brae-log-cabins-beauly-inverness-shire-scotland/sale
-
-- title: The Private Hill
-  location: Malton, North Yorkshire
-  description: Cutting-edge North Yorkshire glamping dome with country views
-  price: 145
-  price-description: per room per night
-  saved: 21
-  expires: 2020/03/24
-  image: https://secretescapes-web.imgix.net/sales/96258/63b316fd_fdb6_44ea_b43e_be905e6c2678.jpg?auto=format,compress
-  link: https://www.secretescapes.com/the-private-hill-malton-north-yorkshire/sale
-
 - title: Bodelwyddan Castle Hotel
   location: Bodelwyddan, North Wales
   description: Adults-only Warner Leisure hotel in a Welsh castle
@@ -38,3 +18,23 @@
   expires: 2020/03/31
   image: https://secretescapes-web.imgix.net/sales/93862/631ce1e2_6168_4148_9f59_115200899652.jpg?auto=format,compress
   link: https://www.secretescapes.com/manor-house-hotel-at-alsager-stoke-on-trent-staffordshire-uk/sale
+
+- title: Hy Hotel
+  location: Lytham, Lancashire
+  description: Aparthotel seaside stay near Lytham St Annes
+  price: 99
+  price-description: per room per night
+  saved: 66
+  expires: 2020/03/31
+  image: https://secretescapes-web.imgix.net/sales/110271/7cc756dd_7ffd_46f1_b22c_571fbcd88349.jpg?auto=format,compress
+  link: https://www.secretescapes.com/hy-hotel-lytham-lancashire/sale
+
+- title: Ruthin Castle Hotel & Spa
+  location: Ruthin, North Wales
+  description: Bed down within a centuries-old castle in North Wales
+  price: 99
+  price-description: per room per night
+  saved: 45
+  expires: 2020/03/31
+  image: https://secretescapes-web.imgix.net/sales/70504/af2a081b_e844_45bc_ac28_d495075ee50d.jpg?auto=format,compress
+  link: https://www.secretescapes.com/ruthin-castle-hotel-and-spa-ruthin-north-wales/sale  

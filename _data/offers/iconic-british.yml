@@ -19,16 +19,6 @@
   image: https://secretescapes-web.imgix.net/sales/42163/bb6c6a90_5b6f_4fb4_a8d9_0129c2031e80.jpg?auto=format,compress
   link: https://www.secretescapes.com/carbis-bay-hotel-and-estate-st-ives-cornwall/sale
 
-- title: The Ickworth Hotel
-  location: Bury St Edmunds, Suffolk
-  description: Stately Suffolk retreat brimming with grandeur
-  price: 119
-  price-description: per room per night
-  saved: 50
-  expires: 2020/03/31
-  image: https://secretescapes-web.imgix.net/sales/41272/8d0393c5_2ddc_4366_a6f6_407d21683b5a.jpg?auto=format,compress
-  link: https://www.secretescapes.com/the-ickworth-hotel-bury-st-edmunds-suffolk/sale
-
 - title: Gisborough Hall Hotel
   location: Guisborough, North Yorkshire
   description: Ivy-clad country house by the North Yorkshire Moors
@@ -38,3 +28,13 @@
   expires: 2020/03/31
   image: https://secretescapes-web.imgix.net/hotels/26/94e4bb74_63ca_430e_a9cc_02471dcf4f93.jpg?auto=format,compress
   link: https://www.secretescapes.com/gisborough-hall-hotel-guisborough-north-yorkshire/sale-hotel
+
+- title: Country Living Lansdown Grove
+  location: Bath, Somerset
+  description: Plush Bath retreat near the city's heart
+  price: 90
+  price-description: per room per night
+  saved: 56
+  expires: 2020/03/31
+  image: https://secretescapes-web.imgix.net/sales/99890/76610ced_ea11_4c07_b0e8_c2551e41c29d.jpg?auto=format,compress
+  link: https://www.secretescapes.com/country-living-lansdown-grove-bath-somerset/sale
