@@ -23,13 +23,17 @@ sections:
     description: Sometimes nothing beats a few days in a spa. Letting yourself be pampered from head to toe, dipping into jacuzzis, pools, mud baths and saunas… If you can bear it, a spa getaway also comes with some other nice features. Beautiful hotels in lush surroundings, timeless spa towns filled with those other rejuvenating treatments – like shopping, fine dining and excellent bars; a spa getaway doesn’t need to just be sitting in a hot tub with that special someone. Though, we wouldn’t blame you if that’s all you can manage...
 ---
 
-<div class="bg--grey-lightest">
+<div class="">
   <div class="container">
-    <div class="vpad--xxl width width--xl text--center text--xxl">
-      <p>{{page.intro}}</p>
-      <p>Use the promo code to enjoy four free cards on a 14-day free trial</p>
-      <div class="promo-code">ESCAPE</div><br />
-      <a id="track-{{page.id}}-intro-download-btn" href="{{site.client.download-link}}" class="btn btn--cyan js-open-modal" data-open-modal="download-app">Download the app</a>
+    <div class="vpad--xxl">
+      <div class="row row--gutters-xl">
+        <div class="col col--6 text--xxxl">
+          <p>{{page.intro}}</p>
+        </div>
+        <div class="col col--6">
+          {% include page/touchnote-promo-box.html %}
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -37,7 +41,7 @@ sections:
 {% for item in page.sections %}
 {% assign offers = site.data.offers[item.id] | sort: 'price' %}
 
-<div class="{% cycle '', 'bg--grey-lightest' %}">
+<div class="{% cycle 'bg--grey-lightest', '' %}">
   <div class="container vpad--xxl">
     <h2 class="title title--xl">{{item.title}}</h2>
     <p class="width--xl text--xxl">{{item.description}}</p>

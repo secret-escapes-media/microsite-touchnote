@@ -2,14 +2,18 @@
 
 .promo-code {
   display: inline-block;
-  margin: $s2 auto;
+  margin: 0 auto;
   padding: $s-1 $s8;
-  letter-spacing: .1rem;
-  font-weight: 700;
-  font-size: $s0;
+  letter-spacing: .3rem;
+  font-weight: 400;
+  font-size: $s2;
   word-break: break-all;
-  border: 2px solid rgba($t-cyan, .5);
+  border: 1px solid rgba($t-cyan, .5);
   border-radius: 3px;
+
+  &-box {
+    border-radius: 9px;
+  }
 }
 
 .banner-logo {

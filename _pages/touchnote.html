@@ -29,46 +29,51 @@ features:
 
 ---
 
-<div class="bg--grey-lightest">
-  <div class="container">
-    <div class="row row--no-gutters row--xxxl-6-6 row--valign-center">
-      <div class="col">
-        <div class="width width--lg vpad--xl text--center text--xxxl-left">
-          <p class="text--xxl">{{page.intro}}</p>
-          <p class="text--xxl">Use the promo code to enjoy four free cards on a 14-day free trial</p>
-          <div class="promo-code">ESCAPE</div><br />
-          <a id="track-{{page.id}}-intro-download-btn" href="{{site.client.download-link}}" class="btn btn--cyan js-open-modal" data-open-modal="download-app">Download the app</a>
-        </div>
+<div class="container">
+  <div class="row row--valign-center">
+    <div class="col col--6">
+      <div class="width width--lg vpad--xl text--center text--xxxl-left">
+        <p class="text--xxxl">{{page.intro}}</p>
       </div>
-      <div class="col">
-        <div class="width width--lg">
-          <div class="bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/touchnote/iphone.png);"></div>
-        </div>
+    </div>
+    <div class="col col--6">
+      <div class="width width--lg">
+        <div class="bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/touchnote/iphone.png);"></div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="bg--light">
-  <div class="container vpad--xxl">
-    {% for item in page.features %}
-      <div class="bob{% cycle '', ' bob--swap' %}">
-        <div class="bob__img">
-          <div class="bg-img bg-img--4-3 bg-img--float" style="background-image: url('{{site.img}}/content/touchnote/{{item.id}}.jpg');">
-            <a id="track-{{page.id}}-{{item.id}}-img" class="bg-img__link" href="{{site.client.download-link}}"></a>
-          </div>
-        </div>
-        <div class="bob__text">
-          <h2 class="title title--xl title--color">{{item.title}}</h2>
-          <p class="text--xl">{{item.description}}</p>
-          <div class="space--sm"></div>
-          <a id="track-{{page.id}}-{{item.id}}-btn" href="{{site.client.download-link}}" class="btn btn--sm btn--outline btn--outline-cyan">Find out more</a>
+<div class="bg--partner-light">
+  <div class="width width--xxl text--center vpad--xxl">
+    <div class="title title--md">Exclusive members offer</div>
+    <p class="text--xxxl">Download the TouchNote app and use the below promo code to enjoy four free cards on a 14-day free trial</p>
+    <div class="space--sm"></div>
+    <div class="promo-code">ESCAPE</div>
+    <div class="space--sm"></div>
+    <a href="{{site.client.download-link}}" class="btn btn--cyan">Download the app now</a>
+  </div>
+</div>
+
+
+<div class="container vpad--xxl">
+  {% for item in page.features %}
+    <div class="bob{% cycle '', ' bob--swap' %}">
+      <div class="bob__img">
+        <div class="bg-img bg-img--4-3 bg-img--float" style="background-image: url('{{site.img}}/content/touchnote/{{item.id}}.jpg');">
+          <a id="track-{{page.id}}-{{item.id}}-img" class="bg-img__link" href="{{site.client.link}}"></a>
         </div>
       </div>
-    {% endfor %}
-    <div class="text--center">
-      <div class="space--xxxl"></div>
-      <a id="track-{{page.id}}-end-download-btn" href="{{site.client.download-link}}" class="btn btn--cyan btn--lg js-open-modal" data-open-modal="download-app">Download the app</a>
+      <div class="bob__text">
+        <h2 class="title title--xl title--color">{{item.title}}</h2>
+        <p class="text--xl">{{item.description}}</p>
+        <div class="space--sm"></div>
+        <a id="track-{{page.id}}-{{item.id}}-btn" href="{{site.client.link}}" class="btn btn--sm btn--outline btn--outline-cyan">Find out more</a>
+      </div>
     </div>
+  {% endfor %}
+  <div class="text--center">
+    <div class="space--xxxl"></div>
+    <a id="track-{{page.id}}-end-download-btn" href="{{site.client.download-link}}" class="btn btn--cyan btn--lg js-open-modal" data-open-modal="download-app">Download the app</a>
   </div>
 </div>
