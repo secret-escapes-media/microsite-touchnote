@@ -30,17 +30,22 @@ banner:
   {% assign site-pages = site.html_pages | where: 'nav', 'true' | sort: 'nav-order' %}
   {% for item in site-pages %}
     {% unless page.id == item.id or item.id == 'competition' %}
+      {% if item.link-off %}
+        {% assign link = item.link-off %}
+      {% else %}
+        {% assign link = site.baseurl | append: item.url %}
+      {% endif %}
       <div class="bob{% cycle '', ' bob--swap' %}">
         <div class="bob__img">
           <div class="bg-img bg-img--4-3 bg-img--float" style="background-image: url('{{site.img}}/content/{{item.id}}/nav.jpg');">
-            <a class="bg-img__link" href="{{site.baseurl}}{{item.url}}"></a>
+            <a class="bg-img__link" href="{{link}}"></a>
           </div>
         </div>
         <div class="bob__text">
           <h2 class="title title--lg">{{item.title}}</h2>
           <p class="text--xl">{{item.intro}}</p>
           <div class="space--sm"></div>
-          <a href="{{site.baseurl}}{{item.url}}" class="btn btn--outline btn--outline-cyan">Find Out More</a>
+          <a href="{{link}}" class="btn btn--outline btn--outline-cyan">Find Out More</a>
         </div>
       </div>
     {% endunless %}
